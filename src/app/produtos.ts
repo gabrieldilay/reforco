@@ -1,5 +1,3 @@
-import { NgModel } from "@angular/forms";
-
 export const Produtos = [
     {
         id: 1,

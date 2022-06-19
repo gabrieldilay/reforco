@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -10,7 +11,7 @@ export class ProdutoService {
 
   constructor(private http: HttpClient) { }
 
-  url = "http://localhost:3001/produtos"
+  url = "http://localhost:3000/produtos"
 
   listar() : Observable<Produto[]> {
     return this.http.get<Produto[]>(this.url);
