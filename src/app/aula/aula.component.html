@@ -1,0 +1,20 @@
+<section class="cards-cardapio">
+<mat-card class="card-cardapio" *ngFor="let produto of produtos">
+  <mat-card-header>
+    <div mat-card-avatar class="card-header-image"></div>
+    <mat-card-title>Aula</mat-card-title>
+    <mat-card-subtitle>Professora</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{ produto.foto }}" alt="Foto do Professor">
+  <mat-card-content>
+    <p>
+      Descrição
+    </p>
+  </mat-card-content>
+  <mat-card-actions class="card-actions">
+    <h3 class="preco">{{ produto.preco | formatoReal: 'BRL' }} </h3>
+    <button mat-button>CURTIR</button>
+    <button mat-button (click)="adicionarAoCarrinho(produto)">CARRINHO</button>
+  </mat-card-actions>
+</mat-card>
+</section>
