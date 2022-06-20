@@ -1,0 +1,19 @@
+[
+    {
+      "codigo": 1,
+      "nome": "Cleide Costa",
+      "descricao": "Professora de Ingês"
+    },
+    
+    {
+      "codigo": 2,
+      "nome": "Jussara Oliveira",
+      "descricao": "Professora de Português"
+    },
+    
+    {
+      "codigo": 3,
+      "nome": "Roseane de Silva",
+      "descricao": "Professora de Matematica"
+    }
+  ]

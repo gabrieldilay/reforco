@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientJsonpModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -25,8 +25,8 @@ import { SeletorComponent } from './home/seletor/seletor.component';
 import { MatSelectModule} from '@angular/material/select';
 import { FormatoRealPipe } from './formato-real.pipe';
 import { BarraComponent } from './admin/barra/barra.component';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatListModule} from '@angular/material/list';
+import {  MatSidenavModule} from '@angular/material/sidenav';
+import {  MatListModule} from '@angular/material/list';
 import { MatInputModule} from '@angular/material/input';
 import { ListarComponent } from './admin/produto/listar/listar.component';
 import { IncluirComponent } from './admin/produto/incluir/incluir.component';
@@ -67,7 +67,7 @@ import { ExcluirComponent } from './admin/produto/excluir/excluir.component';
     MatListModule,
     FormsModule,
     HttpClientJsonpModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,76 @@
+[
+    {
+      "codigo": 1981,
+      "data": "2022-03-29",
+      "itens": [
+        {
+          "codigo": 1,
+          "nome": "Aula de Inglês",
+          "descricao": "Cleide Costa",
+          "preco": 89.90,
+          "foto": "../assets/img/ingles.jpg",
+          "desconto": 0,
+          "pontosDasAvaliacoes": 4,
+          "totalDeAvaliacoes": 320,
+          "disponibilidade": 7,
+          "totalDeCompras": 0,
+          "professor": 1,
+          "quantidade": 4
+        }  
+      ],
+      "total": 359.60,
+      "cliente": 4,
+      "status": 5
+    },
+    
+    
+    {
+        "codigo": 2010,
+        "data": "2022-03-30",
+        "itens": [
+          {
+            "codigo": 2,
+            "nome": "Aula de Português",
+            "descricao": "Jussara Oliveira",
+            "preco": 49.90,
+            "foto": "../assets/img/portugues.jpg",
+            "desconto": 0,
+            "pontosDasAvaliacoes": 4,
+            "totalDeAvaliacoes": 200,
+            "disponibilidade": 10,
+            "totalDeCompras": 0,
+            "professor": 2,
+            "quantidade": 1
+          }  
+        ],
+        "total": 49.90,
+        "cliente": 4,
+        "status": 5
+    },
+
+    {
+        "codigo": 1981,
+        "data": "2019-03-29",
+        "itens": [
+          {
+            "codigo": 3,
+            "nome": "Aula de Matematica",
+            "descricao": "Roseane de Silva",
+            "preco": 69.90,
+            "foto": "../assets/img/matematica.jpg",
+            "desconto": 0,
+            "pontosDasAvaliacoes": 5,
+            "totalDeAvaliacoes": 190,
+            "disponibilidade": 3,
+            "totalDeCompras": 0,
+            "professor": 3,
+            "quantidade": 2
+          }  
+        ],
+        "total": 139.80,
+        "cliente": 4,
+        "status": 5
+    }
+
+    
+]
