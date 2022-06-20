@@ -8,13 +8,12 @@
   <img mat-card-image src="{{ produto.foto }}" alt="Foto do Professor">
   <mat-card-content>
     <p>
-      Descrição
+      {{produto.desc}}
     </p>
   </mat-card-content>
   <mat-card-actions class="card-actions">
     <h3 class="preco">{{ produto.preco | formatoReal: 'BRL' }} </h3>
-    <button mat-button>CURTIR</button>
-    <button mat-button (click)="adicionarAoCarrinho(produto)">CARRINHO</button>
+    <button mat-button (click)="adicionarAoCarrinho(produto)">ADICIONAR AO CARRINHO</button>
   </mat-card-actions>
 </mat-card>
 </section>
